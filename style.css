@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 4rem;
+    background-color: #7e7b80;
+    font-size: 1.5em;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+header li a:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+}
+
+.iphone {
+    padding: 13rem;
+    background-image: url(imagens/Prancheta\ \(IPhone\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iphone h2 {
+    font-size: 3em;
+    margin-left: -90px;
+}
+
+.iphone p {
+    font-size: 25px;
+    margin-left: -90px;
+    margin-bottom: 10px;
+}
+
+.iphone a{
+   margin-left: -90px;
+}
+
+.iphone button {
+    padding: 1em;
+    background-color: #7e7d80da;
+    color: wheat;
+    width: 20em;
+}
+
+.iphone button:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+    cursor: pointer;
+}
+.paragrafo {
+    padding: 8rem;
+    background-color: #7e7b80e8;
+    text-align: center;
+    font-size: 1.9rem;
+    color: wheat;
+}
+
+.sessao2 {
+    padding: 25em;
+    background-image: url(imagens/Modelos\ de\ IPhone\ 14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragrafo2 {
+    padding: 8rem;
+    background-color: #7e7b80e8;
+    text-align: center;
+    font-size: 1.9rem;
+    color: wheat;
+}
+
+footer {
+    padding: 1.4rem; 
+    background-color: #4c4750; 
+    font-size: 1.5em; 
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    margin: 20 auto;
+    list-style: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+footer li a:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+}
