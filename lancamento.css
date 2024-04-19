@@ -53,10 +53,75 @@ header li a:hover {
 }
 
 .sessao2 {
-    padding: 15rem;
-    background: linear-gradient(180deg, rgba(251,236,116,0.9051995798319328) 32%, rgba(251,168,26,1) 100%), url(imagens/Banner\ 02.jpg);
+    padding: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
 }
 
+.sessao2 div p {
+    font-size: 2.3em;
+    margin-bottom: 15px;
+}
+
+.sessao2 div button {
+    padding: 1em;
+    border-radius: 20px;
+    border-color: wheat;
+    width: 20em;
+    color: #4c4750;
+    cursor: pointer;
+}
+
+.sessao2 div button:hover {
+    color: #6c508b;
+    transition: 0.9s;
+    border-color: #6c508b;
+}
+
+.sessao2 div img {
+    width: 25rem;
+    height: 25rem;
+    margin-top: -40px;
+}
+
+.line {
+    width: 50%;
+    margin: 0 auto;
+}
+.sessao3 {
+    padding: 10rem;
+}
+
+.sessao3 h3 {
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.sessao3 p {
+    font-size: 2em;
+    text-align: justify;
+}
+
+.sessao3 span {
+    color: rgb(230, 185, 103);
+}
+.sessao4 {
+    padding: 20rem;
+    background: linear-gradient(180deg, rgba(236,230,223,0.8715861344537815) 33%, rgba(93,90,86,1) 100%), url(imagens/Banner\ 02.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.sessao4 div {
+    display: flex;
+}
+.sessao4 p {
+    font-size: 2em;
+}
 
 
 
