@@ -50,6 +50,7 @@ header li a:hover {
     font-size: 15px;
     margin-right: -40px;
     font-weight: 500;
+    line-height: 22px;
 }
 
 .sessao2 {
@@ -109,20 +110,30 @@ header li a:hover {
     color: rgb(230, 185, 103);
 }
 .sessao4 {
-    padding: 20rem;
+    padding: 16rem;
     background: linear-gradient(180deg, rgba(236,230,223,0.8715861344537815) 33%, rgba(93,90,86,1) 100%), url(imagens/Banner\ 02.jpg);
     background-attachment: fixed;
     background-position: center;
     
 }
 
-.sessao4 div {
-    display: flex;
-}
+.sessao4 {
+   display: flex;
+    justify-content: space-around; 
+} 
+
 .sessao4 p {
-    font-size: 2em;
+    font-size: 2.5em;
+    margin-left: -150px;
+    margin-top: 70px;
 }
 
+.sessao4 div img {
+    width: 25em;
+    height: 25em;
+    margin-right: -110px;
+    margin-top: -40px;
+}
 
 
 
