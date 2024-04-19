@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 4rem;
+    background-color: #7e7b80;
+    font-size: 1.5em;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+header li a:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+}
+
+.sessao1 {
+    padding: 15rem;
+    background-image: url(imagens/Banner\ IPhone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-sessao1 {
+    width: 300px;
+    height: 200px;
+}
+
+.sessao1 h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #4c4750;
+}
+.div-sessao1 p {
+    font-size: 15px;
+    margin-right: -40px;
+    font-weight: 500;
+}
+
+.sessao2 {
+    padding: 15rem;
+    background: linear-gradient(180deg, rgba(251,236,116,0.9051995798319328) 32%, rgba(251,168,26,1) 100%), url(imagens/Banner\ 02.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding: 1.4rem; 
+    background-color: #4c4750; 
+    font-size: 1.5em; 
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    margin: 20 auto;
+    list-style: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+footer li a:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+}
