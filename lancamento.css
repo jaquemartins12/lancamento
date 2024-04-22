@@ -110,29 +110,21 @@ header li a:hover {
     color: rgb(230, 185, 103);
 }
 .sessao4 {
-    padding: 16rem;
+    padding: 10rem;
     background: linear-gradient(180deg, rgba(236,230,223,0.8715861344537815) 33%, rgba(93,90,86,1) 100%), url(imagens/Banner\ 02.jpg);
     background-attachment: fixed;
     background-position: center;
-    
-}
-
-.sessao4 {
-   display: flex;
+    display: flex;
     justify-content: space-around; 
-} 
+}
 
 .sessao4 p {
     font-size: 2.5em;
-    margin-left: -150px;
     margin-top: 70px;
 }
 
 .sessao4 div img {
-    width: 25em;
-    height: 25em;
-    margin-right: -110px;
-    margin-top: -40px;
+  width: 14rem;
 }
 
 
@@ -152,7 +144,7 @@ header li a:hover {
 
 
 footer {
-    padding: 1.4rem; 
+    padding: 3.4rem; 
     background-color: #4c4750; 
     font-size: 1.5em; 
 }
