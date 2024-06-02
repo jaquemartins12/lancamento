@@ -9,6 +9,7 @@ header {
     background-color: #7e7b80;
     font-size: 1.5em;
 }
+
 header ul {
     display: flex;
     justify-content: center;
@@ -90,6 +91,7 @@ header li a:hover {
     width: 50%;
     margin: 0 auto;
 }
+
 .sessao3 {
     padding: 10rem;
 }
@@ -109,6 +111,7 @@ header li a:hover {
 .sessao3 span {
     color: rgb(230, 185, 103);
 }
+
 .sessao4 {
     padding: 10rem;
     background: linear-gradient(180deg, rgba(236,230,223,0.8715861344537815) 33%, rgba(93,90,86,1) 100%), url(imagens/Banner\ 02.jpg);
@@ -151,4 +154,174 @@ footer li a {
 footer li a:hover {
     color: rgba(235, 197, 127, 0.877);
     transition: 0.9s;
+}
+
+
+@media screen and (max-width:480px) {
+    
+header {
+    padding: 8%;
+    width: 25.2rem;
+    background-color: #7e7b80;
+    font-size: 0.9rem;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+header li a:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+}
+
+.sessao1 {
+    padding: 5%;
+    background-image: url(imagens/Banner\ IPhone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-sessao1 {
+    width: 300px;
+    height: 200px;
+}
+
+.sessao1 h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #4c4750;
+}
+.div-sessao1 p {
+    font-size: 0.8rem;
+    margin-right: 50px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.sessao2 {
+    padding: 2%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sessao2 div p {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 55px;
+}
+
+.sessao2 div button {
+    padding: 0.8rem;
+    border-radius: 20px;
+    border-color: wheat;
+    margin-top: 20px;
+    font-size: 0.6rem;
+    width: 15rem;
+    height: 2.7rem;
+    color: #4c4750;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.sessao2 div button:hover {
+    color: #6c508b;
+    transition: 0.9s;
+    border-color: #6c508b;
+}
+
+.sessao2 div img {
+    width: 13rem;
+    height: auto;
+    margin-top: 30px;
+}
+
+.line {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sessao3 {
+    padding: 10%;
+}
+
+.sessao3 h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+
+.sessao3 p {
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.sessao3 span {
+    color: rgb(230, 185, 103);
+}
+
+.sessao4 {
+    padding: 10%;
+    background: linear-gradient(180deg, rgba(236,230,223,0.8715861344537815) 33%, rgba(93,90,86,1) 100%), url(imagens/Banner\ 02.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.sessao4 p {
+    font-size: 1.5rem;
+}
+
+.sessao4 div img {
+  width: 8rem;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+footer {
+    padding: 3%; 
+    background-color: #4c4750; 
+    font-size: 0.9rem; 
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    margin: 20 auto;
+    list-style: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+footer li a:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+}
+
 }

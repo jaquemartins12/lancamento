@@ -116,3 +116,133 @@ footer li a:hover {
     color: rgba(235, 197, 127, 0.877);
     transition: 0.9s;
 }
+
+
+
+@media screen and (max-width:480px) {
+    
+header {
+    padding: 8%;
+    width: 45rem;
+    background-color: #7e7b80;
+    font-size: 1.5em;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+header li a:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+}
+
+.iphone {
+    padding: 2%;
+    width: 48.8rem;
+    height: 25rem;
+    background-image: url(imagens/Prancheta\ \(IPhone\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.iphone h2 {
+    font-size: 2rem;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+.iphone p {
+    font-size: 1.6rem;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.iphone a{
+   margin-left: 50px;
+}
+
+.iphone button {
+    padding: 1em;
+    background-color: #7e7d80da;
+    color: wheat;
+    width: 19rem;
+    border-radius: 1px;
+}
+
+.iphone button:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.paragrafo {
+    padding: 15%;
+    width: 41rem;
+    height: 20rem;
+    background-color: #7e7b80e8;
+    text-align: center;
+    font-size: 1.9rem;
+    color: wheat;
+    font-size: 2.1rem;
+    line-height: 50px;
+}
+
+.sessao2 {
+    padding: 50%;
+    width: 20rem;
+    background-image: url(imagens/Banner-Jaque\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.paragrafo2 {
+    padding: 15%;
+    width: 41rem;
+    height: 20rem;
+    background-color: #7e7b80e8;
+    text-align: center;
+    font-size: 1.9rem;
+    color: wheat;
+    font-size: 2.1rem;
+    line-height: 50px;
+}
+
+footer {
+    padding: 6%;  
+    width: 46.4rem;
+    background-color: #4c4750; 
+    font-size: 1rem; 
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    margin: 20 auto;
+    list-style: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+footer li a:hover {
+    color: rgba(235, 197, 127, 0.877);
+    transition: 0.9s;
+}
+}
